@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a58fe2-3385-4b05-881a-f3df6536d606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/gui/PanelPelotita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/gui/VentanaPelotita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/model/Pelotita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recursividad/EjemploSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recursividad/HanoiChico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/gui/DibujoHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/gui/HAnoiFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/gui/HAnoiPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/obj/Disco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/obj/Hanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/obj/JuegoHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/obj/Torre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recursividad/HanoiChico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recursividad/HanoiChico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +74,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="hanoi.gui" />
       <recent name="observer.gui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HanoiChico">
+  <component name="RunManager" selected="Application.JuegoHanoi">
     <configuration name="Banco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="observer.Banco" />
       <module name="eddnur202502" />
@@ -101,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloProg3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.HelloProg3" />
+    <configuration name="JuegoHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hanoi.obj.JuegoHanoi" />
       <module name="eddnur202502" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="hanoi.obj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JuegoHanoi" />
         <item itemvalue="Application.HanoiChico" />
         <item itemvalue="Application.VentanaPelotita" />
         <item itemvalue="Application.Banco" />
         <item itemvalue="Application.TestLogs" />
-        <item itemvalue="Application.HelloProg3" />
       </list>
     </recent_temporary>
   </component>
@@ -181,14 +185,22 @@
       <option name="project" value="LOCAL" />
       <updated>1755867411899</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Clase 26 agosto">
+      <created>1756213040405</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756213040405</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit inicial" />
     <MESSAGE value="Clase 15 agosto" />
     <MESSAGE value="Clase 22 agosto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 22 agosto" />
+    <MESSAGE value="Clase 26 agosto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 26 agosto" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
