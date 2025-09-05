@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a58fe2-3385-4b05-881a-f3df6536d606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/gui/DibujoHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/gui/HAnoiFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/gui/HAnoiPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/obj/Disco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/obj/Hanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/obj/JuegoHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hanoi/obj/Torre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practicos/tp2/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recursividad/HanoiChico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recursividad/HanoiChico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hanoi/gui/DibujoHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hanoi/gui/DibujoHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hanoi/gui/HAnoiFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hanoi/gui/HAnoiFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hanoi/obj/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hanoi/obj/Disco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hanoi/obj/Hanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hanoi/obj/Hanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hanoi/obj/Torre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hanoi/obj/Torre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +76,26 @@
       <recent name="observer.gui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JuegoHanoi">
+  <component name="RunManager" selected="Application.HAnoiFrame">
     <configuration name="Banco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="observer.Banco" />
       <module name="eddnur202502" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HAnoiFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hanoi.gui.HAnoiFrame" />
+      <module name="eddnur202502" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hanoi.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,19 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logs.TestLogs" />
-      <module name="eddnur202502" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="logs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VentanaPelotita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="observer.gui.VentanaPelotita" />
       <module name="eddnur202502" />
@@ -146,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HAnoiFrame" />
         <item itemvalue="Application.JuegoHanoi" />
         <item itemvalue="Application.HanoiChico" />
         <item itemvalue="Application.VentanaPelotita" />
         <item itemvalue="Application.Banco" />
-        <item itemvalue="Application.TestLogs" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1756213040405</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Clase 2 de septiembre">
+      <created>1756817773089</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756817773089</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -200,7 +205,8 @@
     <MESSAGE value="Clase 15 agosto" />
     <MESSAGE value="Clase 22 agosto" />
     <MESSAGE value="Clase 26 agosto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 26 agosto" />
+    <MESSAGE value="Clase 2 de septiembre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 2 de septiembre" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

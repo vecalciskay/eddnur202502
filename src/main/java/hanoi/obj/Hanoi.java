@@ -6,11 +6,12 @@ import java.beans.PropertyChangeSupport;
 public class Hanoi {
     private Torre[] torres;
     private int cantidadDiscos;
+    private int msEntreMovimiento;
     private PropertyChangeSupport observado;
 
     public Hanoi(int n) {
         this.cantidadDiscos = n;
-
+        this.msEntreMovimiento = 0;
         torres = new Torre[3];
 
         torres[0] = new Torre(cantidadDiscos);
@@ -18,6 +19,10 @@ public class Hanoi {
         torres[2] = new Torre();
 
         observado = new PropertyChangeSupport(this);
+    }
+
+    public void setMsEntreMovimiento(int msEntreMovimiento) {
+        this.msEntreMovimiento = msEntreMovimiento;
     }
 
     public void addObservador(PropertyChangeListener observador) {
@@ -33,6 +38,15 @@ public class Hanoi {
             Disco discoAMover = torres[de].sacar();
             torres[a].colocar(discoAMover);
             observado.firePropertyChange("HANOI", de, a);
+
+            if (msEntreMovimiento > 0) {
+                try {
+                    Thread.sleep(msEntreMovimiento);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
             return;
         }
         int pp = 3 - (de + a);
@@ -48,5 +62,9 @@ public class Hanoi {
         result.append(torres[1]).append("\n");
         result.append(torres[2]).append("\n");
         return result.toString();
+    }
+
+    public Torre[] getTorres() {
+        return torres;
     }
 }

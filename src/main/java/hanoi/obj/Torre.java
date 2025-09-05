@@ -33,4 +33,8 @@ public class Torre {
         }
         return result.toString();
     }
+
+    public Stack<Disco> getDiscos() {
+        return discos;
+    }
 }
