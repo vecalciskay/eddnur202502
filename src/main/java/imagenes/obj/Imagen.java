@@ -51,6 +51,31 @@ public class Imagen {
         pixeles[x][y] = (r << 16) | (g << 8) | b;
     }
 
+    public void setPixel(int x, int y, int c) {
+        pixeles[x][y] = c;
+    }
+
+    public void setPixeles(int w, int h, int[][] nuevosPixeles) {
+        pixeles = nuevosPixeles;
+        ancho = w;
+        alto = h;
+    }
+
+    public int get(int x, int y) {
+        return pixeles[x][y];
+    }
+
+    public int getR(int x, int y) {
+        return pixeles[x][y] >> 16;
+    }
+    public int getG(int x, int y) {
+        return (0x0000FFFF & pixeles[x][y]) >> 8;
+    }
+    public int getB(int x, int y) {
+        return (0x000000FF & pixeles[x][y]);
+    }
+
+
     public void lineaHorizontal(int altura, int r, int g, int b) {
         int color = (r << 16) | (g << 8) | b;
         for (int i = 0; i < ancho; i++) {
