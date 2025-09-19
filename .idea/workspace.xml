@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a58fe2-3385-4b05-881a-f3df6536d606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/practicos/tp3/Readme.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/imagenes/obj/Achicar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/imagenes/obj/FabricaImagen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/imagenes/obj/IOperacionImagen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/imagenes/obj/TonosDeGris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/expresionesregulares/ExpresionSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redes/ServicioCalculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redes/ServidorCalculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redes/ServidorRespuestaUnica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/imagenes/gui/ImagenFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/imagenes/gui/ImagenFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/imagenes/obj/Imagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/imagenes/obj/Imagen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +76,13 @@
       <recent name="observer.gui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImagenFrame">
-    <configuration name="HAnoiFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hanoi.gui.HAnoiFrame" />
+  <component name="RunManager" selected="Application.ServidorCalculadora">
+    <configuration name="ExpresionSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="expresionesregulares.ExpresionSimple" />
       <module name="eddnur202502" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hanoi.gui.*" />
+          <option name="PATTERN" value="expresionesregulares.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HanoiChico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursividad.HanoiChico" />
+    <configuration name="HAnoiFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hanoi.gui.HAnoiFrame" />
       <module name="eddnur202502" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursividad.*" />
+          <option name="PATTERN" value="hanoi.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JuegoHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hanoi.obj.JuegoHanoi" />
+    <configuration name="ServidorCalculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="redes.ServidorCalculadora" />
       <module name="eddnur202502" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hanoi.obj.*" />
+          <option name="PATTERN" value="redes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VentanaPelotita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observer.gui.VentanaPelotita" />
+    <configuration name="ServidorRespuestaUnica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="redes.ServidorRespuestaUnica" />
       <module name="eddnur202502" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer.gui.*" />
+          <option name="PATTERN" value="redes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServidorCalculadora" />
+        <item itemvalue="Application.ExpresionSimple" />
+        <item itemvalue="Application.ServidorRespuestaUnica" />
         <item itemvalue="Application.ImagenFrame" />
         <item itemvalue="Application.HAnoiFrame" />
-        <item itemvalue="Application.JuegoHanoi" />
-        <item itemvalue="Application.HanoiChico" />
-        <item itemvalue="Application.VentanaPelotita" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1757422544046</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Clase 16 de septiembre">
+      <created>1758026986397</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758026986397</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,7 +229,8 @@
     <MESSAGE value="Clase 2 de septiembre" />
     <MESSAGE value="Clase 5 de septiembre" />
     <MESSAGE value="Clase 8 de septiembre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 8 de septiembre" />
+    <MESSAGE value="Clase 16 de septiembre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 16 de septiembre" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
