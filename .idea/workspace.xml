@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a58fe2-3385-4b05-881a-f3df6536d606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/expresionesregulares/ExpresionSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redes/ServicioCalculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redes/ServidorCalculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redes/ServidorRespuestaUnica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listas/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listas/inicial/HomoSapiens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listas/inicial/ListaPrimera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listas/inicial/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listas/inicial/PrimeraLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listas/pruebas/PruebaLista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +79,7 @@
       <recent name="observer.gui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServidorCalculadora">
+  <component name="RunManager" selected="Application.PruebaLista">
     <configuration name="ExpresionSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="expresionesregulares.ExpresionSimple" />
       <module name="eddnur202502" />
@@ -90,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HAnoiFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hanoi.gui.HAnoiFrame" />
+    <configuration name="PrimeraLista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listas.inicial.PrimeraLista" />
       <module name="eddnur202502" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hanoi.gui.*" />
+          <option name="PATTERN" value="listas.inicial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImagenFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imagenes.gui.ImagenFrame" />
+    <configuration name="PruebaLista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listas.pruebas.PruebaLista" />
       <module name="eddnur202502" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imagenes.gui.*" />
+          <option name="PATTERN" value="listas.pruebas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PruebaLista" />
+        <item itemvalue="Application.PrimeraLista" />
         <item itemvalue="Application.ServidorCalculadora" />
         <item itemvalue="Application.ExpresionSimple" />
         <item itemvalue="Application.ServidorRespuestaUnica" />
-        <item itemvalue="Application.ImagenFrame" />
-        <item itemvalue="Application.HAnoiFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1758026986397</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Clase 19 de septiembre">
+      <created>1758286878384</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758286878384</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,7 +240,8 @@
     <MESSAGE value="Clase 5 de septiembre" />
     <MESSAGE value="Clase 8 de septiembre" />
     <MESSAGE value="Clase 16 de septiembre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 16 de septiembre" />
+    <MESSAGE value="Clase 19 de septiembre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 19 de septiembre" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
