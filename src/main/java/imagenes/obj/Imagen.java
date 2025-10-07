@@ -1,6 +1,11 @@
 package imagenes.obj;
 
+import imagenes.figuras.IFigura;
+
 import java.awt.*;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
 
 /**
  * El color de un pixel es formado por la combinacion de un valor de rojo,
@@ -27,15 +32,26 @@ import java.awt.*;
  *    -----------------------------
  *    1000 0001 1101 0011 0111 1100
  */
-public class Imagen {
+public class Imagen implements PropertyChangeListener {
     private int pixeles[][];
     private int ancho;
     private int alto;
+
+    private PropertyChangeSupport observado;
 
     public Imagen(int w, int h) {
         pixeles = new int[w][h];
         ancho = w;
         alto = h;
+        observado = new PropertyChangeSupport(this);
+    }
+
+    public void addObserver(PropertyChangeListener listener) {
+        observado.addPropertyChangeListener(listener);
+    }
+
+    public void notificar() {
+        observado.firePropertyChange("IMAGEN", true, false);
     }
 
     /**
@@ -83,6 +99,25 @@ public class Imagen {
         }
     }
 
+    public void lineaHorizontal(int x, int y, int distancia) {
+        int r =255;
+        int g=255;
+        int b = 255;
+        int color = (r << 16) | (g << 8) | b;
+        for (int i = 0; i < distancia; i++) {
+            pixeles[x+i][y] = color;
+        }
+    }
+    public void lineaVertical(int x, int y, int distancia) {
+        int r =255;
+        int g=255;
+        int b = 255;
+        int color = (r << 16) | (g << 8) | b;
+        for (int j = 0; j < distancia; j++) {
+            pixeles[x][y+j] = color;
+        }
+    }
+
     public int[][] getPixeles() {
         return pixeles;
     }
@@ -103,4 +138,13 @@ public class Imagen {
             }
         }
     }
+
+    @Override
+    public void propertyChange(PropertyChangeEvent evt) {
+        pixeles = new int[ancho][alto];
+
+        IFigura figura = (IFigura)(evt.getSource());
+        figura.dibujar(this);
+    }
+
 }
