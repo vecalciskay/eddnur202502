@@ -132,8 +132,8 @@ public class ImagenP4 extends ElementoGrafico implements PropertyChangeListener 
 
         ListaP4<ElementoGrafico> figuras =
                 (ListaP4<ElementoGrafico>)(evt.getSource());
-        for (ElementoGrafico elemento:
-             figuras) {
+        for (int i=figuras.tamano();i>=0;i--) {
+            ElementoGrafico elemento = figuras.get(i);
             elemento.dibujar(this);
         }
 

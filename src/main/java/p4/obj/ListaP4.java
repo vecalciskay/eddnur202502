@@ -8,10 +8,12 @@ import java.util.Iterator;
 public class ListaP4<E> implements Iterable<E>, PropertyChangeListener {
     private Nodo<E> inicio;
     private PropertyChangeSupport observado;
+    protected int cantidadObjetos;
 
     public ListaP4() {
         inicio = null;
         observado = new PropertyChangeSupport(this);
+        cantidadObjetos = 0;
     }
 
     public void addObservador(PropertyChangeListener observador) {
@@ -26,6 +28,7 @@ public class ListaP4<E> implements Iterable<E>, PropertyChangeListener {
         Nodo<E> nuevo = new Nodo(c);
         nuevo.setSiguiente(inicio);
         inicio = nuevo;
+        cantidadObjetos++;
 
         if (c instanceof ElementoGrafico) {
             ElementoGrafico objElementoGrafico = (ElementoGrafico) c;
@@ -48,6 +51,41 @@ public class ListaP4<E> implements Iterable<E>, PropertyChangeListener {
     @Override
     public void propertyChange(PropertyChangeEvent evt) {
         observado.firePropertyChange("LISTA", true, false);
+    }
+
+    public int tamano() {
+        return cantidadObjetos;
+    }
+
+    /**
+     * SI la lista tiene 5 elementos
+     * 0 1 2 3 4
+     * A G V N E
+     *
+     * -2 -1 0 1 2 3 4 5 6
+     *  #  # A G V N E # #
+     *
+     *  -2 -1 0 1 2 3 4 5 6
+     *   N  E A G V N E A G
+     * @param posicion
+     * @return
+     */
+    public E get(int posicion) {
+        if (posicion < 0)
+            throw new IndexOutOfBoundsException("No existen posiciones negativas");
+
+        int posicionDentroDeArreglo = posicion % cantidadObjetos;
+
+        Nodo<E> actual = inicio;
+        int posicionActual = 0;
+        while(posicionActual < posicionDentroDeArreglo && actual != null) {
+            actual = actual.getSiguiente();
+            posicionActual++;
+        }
+        if (actual == null)
+            throw new IndexOutOfBoundsException("La posicion esta fuera del tamano de la lista");
+
+        return actual.getContenido();
     }
 
     class Nodo<E> {

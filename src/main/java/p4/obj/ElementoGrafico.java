@@ -6,6 +6,8 @@ import java.beans.PropertyChangeSupport;
 public abstract class ElementoGrafico {
     protected int posX;
     protected int posY;
+    protected  int offsetX;
+    protected  int offsetY;
     protected boolean seleccionado;
     protected int color;
 
@@ -16,8 +18,8 @@ public abstract class ElementoGrafico {
     }
 
     public void setPosicion(int x, int y) {
-        this.posX = x;
-        this.posY = y;
+        this.posX = x - offsetX;
+        this.posY = y - offsetY;
         observado.firePropertyChange("POSICION", true, false);
     }
 
@@ -42,7 +44,21 @@ public abstract class ElementoGrafico {
     }
 
     public void setSeleccionado(boolean seleccionado) {
+        boolean oldSeleccionado = this.seleccionado;
         this.seleccionado = seleccionado;
+        if (oldSeleccionado != seleccionado) {
+            observado.firePropertyChange("SELECCION", true, false);
+        }
+    }
+
+    public void setSeleccionado(boolean seleccionado, int offsetX, int offsetY) {
+        this.offsetX = offsetX;
+        this.offsetY = offsetY;
+        boolean oldSeleccionado = this.seleccionado;
+        this.seleccionado = seleccionado;
+        if (oldSeleccionado != seleccionado) {
+            observado.firePropertyChange("SELECCION", true, false);
+        }
     }
 
     public int getColor() {
@@ -57,4 +73,12 @@ public abstract class ElementoGrafico {
     public abstract int getAncho();
 
     public abstract void dibujar(ImagenP4 img);
+
+    public boolean posicionDentroDeObjeto(int x, int y) {
+        if (x > posX && x < (posX + getAncho()) &&
+        y > posY && y < (posY + getAlto())) {
+            return true;
+        }
+        return false;
+    }
 }
