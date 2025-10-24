@@ -5,7 +5,7 @@ import listas.inicial.Nodo;
 import java.util.Iterator;
 
 public class Lista<E> implements Iterable<E> {
-    private Nodo<E> inicio;
+    protected Nodo<E> inicio;
 
     public Lista() {
         inicio = null;
