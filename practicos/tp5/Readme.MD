@@ -115,4 +115,4 @@ ejemplo: Mandela, Einstein, Che Guevara, etc.
 ## Presentación
 
 El práctico debe ser presentado el 
-28 de octubre de 2025
+31 de octubre de 2025

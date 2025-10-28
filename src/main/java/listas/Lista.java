@@ -6,9 +6,10 @@ import java.util.Iterator;
 
 public class Lista<E> implements Iterable<E> {
     protected Nodo<E> inicio;
+    protected int tamano;
 
     public Lista() {
-        inicio = null;
+        inicio = null;tamano = 0;
     }
 
     public Iterator<E> iterator() {
@@ -19,6 +20,7 @@ public class Lista<E> implements Iterable<E> {
         Nodo<E> nuevo = new Nodo(c);
         nuevo.setSiguiente(inicio);
         inicio = nuevo;
+        tamano++;
     }
 
     @Override
@@ -30,6 +32,17 @@ public class Lista<E> implements Iterable<E> {
             actual = actual.getSiguiente();
         }
         return resultado.toString();
+    }
+
+
+    public E buscar(E o) {
+        Nodo<E> actual = inicio;
+        while(actual != null) {
+            if (o.equals(actual.getContenido()))
+                return actual.getContenido();
+            actual = actual.getSiguiente();
+        }
+        return null;
     }
 
     class Nodo<E> {
