@@ -47,4 +47,4 @@ la eliminación de esa figura y todos sus hijos.
 ## Presentación
 
 El práctico debe ser presentado el
-7 de noviembre de 2025
+11 de noviembre de 2025

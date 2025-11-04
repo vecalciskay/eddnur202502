@@ -45,6 +45,10 @@ public class Lista<E> implements Iterable<E> {
         return null;
     }
 
+    public int getTamano() {
+        return tamano;
+    }
+
     class Nodo<E> {
         private E contenido;
         private Nodo<E> siguiente;
