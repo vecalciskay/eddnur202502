@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a58fe2-3385-4b05-881a-f3df6536d606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arboles/ConstructorArbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arboles/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arboles/StringIdentifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arboles/TestArbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arboles/TestConstruccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arboles/TestConstruccionArbol.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practicos/tp6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/practicos/tp6/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arboles/Arbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arboles/Arbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listas/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listas/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arboles/ConstructorArbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arboles/ConstructorArbol.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +84,7 @@
       <recent name="p4.obj" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestConstruccion">
+  <component name="RunManager" selected="Application.TestConstruccionArbol">
     <configuration name="TestArbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arboles.TestArbol" />
       <module name="eddnur202502" />
@@ -117,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestComparacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparadores.TestComparacion" />
+    <configuration name="TestConstruccion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arboles.TestConstruccion" />
       <module name="eddnur202502" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="comparadores.*" />
+          <option name="PATTERN" value="arboles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestConstruccion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arboles.TestConstruccion" />
+    <configuration name="TestConstruccionArbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arboles.TestConstruccionArbol" />
       <module name="eddnur202502" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestConstruccionArbol" />
         <item itemvalue="Application.TestConstruccion" />
         <item itemvalue="Application.TestArbol" />
         <item itemvalue="Application.TestBusquedaDicotomica" />
         <item itemvalue="Application.TestListaORdenada" />
-        <item itemvalue="Application.TestComparacion" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1761656079850</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Clase 4 de noviembre">
+      <created>1762260780911</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1762260780911</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -316,7 +317,8 @@
     <MESSAGE value="Clase 21 de octubre" />
     <MESSAGE value="Clase 24 de octubre" />
     <MESSAGE value="Clase 28 de octubre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 28 de octubre" />
+    <MESSAGE value="Clase 4 de noviembre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 4 de noviembre" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -335,6 +337,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/arboles/TestConstruccion.java</url>
           <line>5</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arboles/TestConstruccionArbol.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
