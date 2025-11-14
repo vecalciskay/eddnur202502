@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a58fe2-3385-4b05-881a-f3df6536d606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arboles/TestConstruccionArbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/gui/DibujadorArbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/gui/FrameArbolFiguras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/gui/PAnelArbolFiguras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/obj/ArbolObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/obj/Cuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/obj/Figura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arboles/ConstructorArbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arboles/ConstructorArbol.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +90,13 @@
       <recent name="p4.obj" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestConstruccionArbol">
-    <configuration name="TestArbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arboles.TestArbol" />
+  <component name="RunManager" selected="Application.Principal">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp6.Principal" />
       <module name="eddnur202502" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arboles.*" />
+          <option name="PATTERN" value="tp6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +104,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBusquedaDicotomica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listas.pruebas.TestBusquedaDicotomica" />
+    <configuration name="PruebaLista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listas.pruebas.PruebaLista" />
       <module name="eddnur202502" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="listas.pruebas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arboles.TestArbol" />
+      <module name="eddnur202502" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arboles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,26 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestListaORdenada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listas.pruebas.TestListaORdenada" />
-      <module name="eddnur202502" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listas.pruebas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.PruebaLista" />
         <item itemvalue="Application.TestConstruccionArbol" />
         <item itemvalue="Application.TestConstruccion" />
         <item itemvalue="Application.TestArbol" />
-        <item itemvalue="Application.TestBusquedaDicotomica" />
-        <item itemvalue="Application.TestListaORdenada" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1762260780911</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Clase 7 de noviembre">
+      <created>1762519881239</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1762519881239</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -318,7 +331,8 @@
     <MESSAGE value="Clase 24 de octubre" />
     <MESSAGE value="Clase 28 de octubre" />
     <MESSAGE value="Clase 4 de noviembre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 4 de noviembre" />
+    <MESSAGE value="Clase 7 de noviembre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 7 de noviembre" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -342,6 +356,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/arboles/TestConstruccionArbol.java</url>
           <line>11</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tp6/gui/DibujadorArbol.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
