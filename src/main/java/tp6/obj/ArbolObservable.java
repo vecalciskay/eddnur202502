@@ -121,9 +121,9 @@ private static Logger logger = LogManager.getRootLogger();
             Figura f = (Figura)contenido;
             if (f.puntoDentroDeFigura(x1, y1)) {
                 if (f.puntoParteAbajoFigura(x1, y1)) {
-                    // ya veremos
+                    return this;
                 } else if (f.puntoParteArribaFigura(x1, y1)) {
-                    // ya veremos
+                    return this;
                 } else {
                     logger.info("Clic en figura " + f.getId() + " pero ni arriba ni abajo");
                 }

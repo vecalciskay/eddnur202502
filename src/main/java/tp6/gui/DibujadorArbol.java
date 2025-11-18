@@ -7,7 +7,7 @@ import java.awt.*;
 
 public class DibujadorArbol {
     private static final int ESPACIO_HORIZONTAL = 15;
-    private static final int ESPACIO_VERTICAL = 70;
+    private static final int ESPACIO_VERTICAL = 90;
 
     private ArbolObservable<Figura> modelo;
 
@@ -37,12 +37,16 @@ public class DibujadorArbol {
             int posicionNodoHijoX = xHijo + anchoHijo / 2;
 
             g.setColor(Color.black);
-            g.drawLine(xNodo, yNodo, posicionNodoHijoX, yHijo);
+
+            int centroXNodo = xNodo + nodo.getContenido().getAncho() / 2;
+            int centroYNodo = yNodo + nodo.getContenido().getAlto() / 2;
+            int centroXHijo = posicionNodoHijoX + hijo.getContenido().getAncho() / 2;
+            int centroYHijo = yHijo + hijo.getContenido().getAlto() / 2;
+            g.drawLine(centroXNodo, centroYNodo, centroXHijo, centroYHijo);
 
             dibujarNodo(hijo, xHijo, yHijo, g);
 
-            xHijo += (separador + anchoHijo);
-            separador = ESPACIO_HORIZONTAL;
+            xHijo += (ESPACIO_HORIZONTAL + anchoHijo);
         }
 
         Figura f = nodo.getContenido();

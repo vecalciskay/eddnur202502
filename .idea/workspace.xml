@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a58fe2-3385-4b05-881a-f3df6536d606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/gui/DibujadorArbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/gui/FrameArbolFiguras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/gui/PAnelArbolFiguras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/obj/ArbolObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/obj/Cuadrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp6/obj/Figura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp6/gui/DibujadorArbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp6/gui/DibujadorArbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp6/gui/PAnelArbolFiguras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp6/gui/PAnelArbolFiguras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp6/obj/ArbolObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp6/obj/ArbolObservable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1762519881239</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Clase 7 de noviembre">
+      <created>1763125619727</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1763125619727</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -359,8 +361,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tp6/gui/DibujadorArbol.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="9" />
+          <line>48</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

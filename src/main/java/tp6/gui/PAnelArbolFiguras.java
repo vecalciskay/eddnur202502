@@ -62,6 +62,7 @@ public class PAnelArbolFiguras extends JPanel implements PropertyChangeListener,
             logger.info("Adicionar nodo debajo de id " + f.getId());
             modelo.insertar(f.getId(), new Cuadrado(Color.green));
         }
+        f.limpiarEvento();
     }
 
     @Override
