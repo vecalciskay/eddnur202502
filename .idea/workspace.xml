@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a58fe2-3385-4b05-881a-f3df6536d606" name="Changes" comment="DAO con abstract factory y singleton y hibernate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/TestPersistencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/accesodatos/dao/PersonaCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/accesodatos/dao/PersonaCommandsHibernateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/accesodatos/dao/PersonaQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/accesodatos/dao/PersonaQueriesHibernateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/accesodatos/dao/factory/DAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/accesodatos/dao/factory/HibernateDAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/accesodatos/ds/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/accesodatos/dto/PersonaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/dominio/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/dominio/PersonaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/mappers/PersonaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/servicios/InscripcionesServicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/servicios/PersonaServicios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practicos/tp7/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763727989595</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DAO con abstract factory y singleton y hibernate">
+      <option name="closed" value="true" />
+      <created>1763791424974</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763791424974</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
